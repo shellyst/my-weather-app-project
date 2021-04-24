@@ -1,4 +1,3 @@
-//Current date and time
 function formatDate(date) {
   let thisHour = date.getHours();
   if (thisHour < 10) {
@@ -28,7 +27,6 @@ let p = document.querySelector("#date");
 let currentTime = new Date();
 p.innerHTML = formatDate(currentTime);
 
-////
 function convertToFahrenheit() {}
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
@@ -38,8 +36,6 @@ function convertToCelsius(event) {}
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
-
-////
 
 function locate(event) {
   event.preventDefault();
