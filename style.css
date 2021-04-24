@@ -1,0 +1,83 @@
+h1,
+h2,
+h4,
+h5,
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.units {
+  font-size: 30px;
+}
+
+a {
+  font-size: 30px;
+}
+form {
+  text-align: center;
+}
+
+input {
+  border-width: 0;
+  border-radius: 14px;
+  text-align: center;
+  padding: 5px 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+
+.search {
+  margin-left: 5px;
+}
+
+.col {
+  text-align: center;
+}
+
+.weather-app {
+  border-radius: 10px;
+  border-style: solid;
+  margin-top: 20px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.fas.fa-cloud.fa-3x {
+  text-align: center;
+  color: #393e46;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+.fas.fa-cloud-rain {
+  color: #2b6af2;
+}
+
+.fas.fa-cloud-showers-heavy {
+  color: #1148bf;
+}
+
+.fas.fa-cloud {
+  color: #393e46;
+}
+
+.fas.fa-sun {
+  color: #e2992b;
+}
+
+.weather-btn {
+  border-radius: 10px;
+  background: #abecea;
+  color: black;
+  height: 30px;
+  font-size: 18px;
+  margin: 10px;
+  border: 1px solid #000;
+}
