@@ -16,9 +16,6 @@ h1 {
   font-size: 30px;
 }
 
-a {
-  font-size: 30px;
-}
 form {
   text-align: center;
 }
@@ -80,4 +77,14 @@ input {
   font-size: 18px;
   margin: 10px;
   border: 1px solid #000;
+}
+
+.my-link {
+  font-size: 10px;
+  margin-left: 125px;
+}
+
+.my-name {
+  font-size: 10px;
+  text-align: center;
 }
